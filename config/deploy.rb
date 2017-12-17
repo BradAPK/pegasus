@@ -4,6 +4,8 @@ lock "~> 3.10.1"
 set :application, "our_memories"
 set :repo_url, "https://github.com/BradAPK/pegasus.git"
 
+set :passenger_restart_with_touch, true
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
